@@ -1,2 +1,2 @@
 # cc-rock-paper-bundle
-Codecademy Project
+Codecademy Webpack Bundling Project
