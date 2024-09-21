@@ -2,11 +2,11 @@ const choices = ['Rock', 'Paper', 'Scissors'];
 
 function getChoices() {
     return choices;
-}
+};
 
 function getComputerChoice() {
     return choices[Math.floor(Math.random()*choices.length)];
-}
+};
 
 function getOutcome(userChoice, computerChoice) {
     let result;
@@ -36,6 +36,12 @@ function getOutcome(userChoice, computerChoice) {
         else {
             result = 'tied';
         }
-    }
+    };
     return result;
-}
+};
+
+export {
+    getChoices,
+    getComputerChoice,
+    getOutcome
+};
